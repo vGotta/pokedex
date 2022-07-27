@@ -1,0 +1,44 @@
+html{
+    height: 90%;
+}
+
+body{
+    background-image: url(../images/pexels-abhishek-rana-4188296.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: rgb(44, 145, 52);
+    text-align: center;
+    margin: 50px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+#form {
+    text-align: right;
+    font-size: x-large;
+    margin-top: 200px;
+    margin-right: 300px;
+    color: white;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    background-color: rgb(38, 47, 42);
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+    
+}
