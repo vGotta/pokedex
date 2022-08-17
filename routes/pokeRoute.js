@@ -37,6 +37,7 @@ pokeRouter.get('/pokemon/:id', async (req, res) => {
 
    pokeRouter.post('/pokemon', async (req, res) => {
     try {
+      req.body.trainer = req.session.user
       const newUser = new pokeModel(req.body)
       await newUser.save()
       res.redirect('/home')
